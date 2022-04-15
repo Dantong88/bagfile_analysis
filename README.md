@@ -5,7 +5,7 @@ conda create -n bagpy_analysis python=3.8
 source activate bagpy_analysis
 ```
 
-## Get the repo and prepare the tools
+## Get the repo and prepare the bagfiles
 User can get the repo by the following command:
 ```
 git clone https://github.com/Dantong88/bagfile_analysis_tool
@@ -25,7 +25,7 @@ bagpy_analysis_tool/
 ├── requirements.py
 ```
 
-## Requirements
+## Install the requirements
 ```
 pip install -r requirements.txt
 ```
