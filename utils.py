@@ -92,7 +92,6 @@ def adjust_length(data1, data2):
 
 def time_analysis(data, topics_name, topics_num, start_time, duration):
     '''
-
     :param data: data of the input bagfile (DataFrame)
     :param topics_name: topic names of the bagfile
     :param topics_num: number of the input bagfile
