@@ -14,6 +14,8 @@ cd bag_analysis_tool
 Then, put your bagfile and supported .csv file into the folder and save it like:
 ```
 bagpy_analysis_tool/
+├── LICENSE
+├── README.md
 ├── split_tool.py
 ├── analysis_tool.py
 ├── tool_algorthim.py
@@ -53,6 +55,8 @@ python split_tool.py --bagfile your_bagfile_dir \
 User can assign the save dir and the name of splitted bagfile, the start time to split and the duration, the duration is with the unit of second, then it will output the splitted bagfile in the assigned dir with the archetecture below:
 ```
 bagpy_analysis_tool/
+├── LICENSE
+├── README.md
 ├── split_result/
 │   └── output.bag
 │   └── output_info.json
@@ -87,6 +91,8 @@ python analysis_tool.py --bagfile1 your_bagfile1\
 User can assign the save dir and the name of splitted bagfile, the start time to split and the duration, the duration is with the unit of second, then it will output the splitted bagfile in the assigned dir with the archetecture below:
 ```
 bagpy_analysis_tool/
+├── LICENSE
+├── README.md
 ├── output/
     └── output.json
     ├── v_ref_comparison.png
