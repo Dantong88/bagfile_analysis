@@ -8,7 +8,7 @@ source activate bagpy_analysis
 ## Get the repo and prepare the tools
 User can get the repo by the following command:
 ```
-git clone this repo
+git clone https://github.com/Dantong88/bagfile_analysis_tool
 cd bag_analysis_tool
 ```
 Then, put your bagfile and supported .csv file into the folder and save it like:
