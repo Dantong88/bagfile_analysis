@@ -100,6 +100,8 @@ def time_analysis(data, topics_name, topics_num, start_time, duration):
     :param duration: duration of the split (seconds)
     :return: start and end time of each topic for each topic (list)
     '''
+    if start_time == 0:
+        start_time = int(data[7].values[0, 0])
     info = []
     for i in range(topics_num):
         topic_name = topics_name[i]
