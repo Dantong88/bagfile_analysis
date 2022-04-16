@@ -1,6 +1,6 @@
 # Bagpy Analysis [Usage]
 ## Brief introduction
-This repo includes two bagfile analysis tools: bagfile split tools and the bagfile analysis tools.
+This repo includes two bagfile analysis tools: bagfile split tool and the bagfile analysis tool.
 
 The bagfile split tool can split the input bagfile based on timestamp, the user can assign the start time and duration of the target bagfile and will output the bagfile clip of the specified time interval.
 
