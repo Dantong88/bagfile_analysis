@@ -28,11 +28,11 @@ def parse_args():
                         default='')
 
     parser.add_argument("--save_dir",
-                        help="the dir to save the outout",
+                        help="the dir to save the output",
                         default='./split_result')
 
     parser.add_argument("--outbag_name",
-                        help="the dir to save the outout",
+                        help="the name of the output bagfile",
                         default='output.bag')
 
     parser.add_argument("--start_time",
