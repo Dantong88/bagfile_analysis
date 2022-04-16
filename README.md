@@ -18,7 +18,7 @@ User can get the repo by the following command:
 git clone https://github.com/Dantong88/bagfile_analysis_tool
 cd bagfile_analysis_tool
 ```
-Then, put your bagfile and supported .csv file into the folder and save it like:
+Then, put your bagfile (user can use any bagfiles as input for demo test) and supported .csv parameter file into the folder and save it like:
 ```
 bagpy_analysis_tool/
 ├── LICENSE
@@ -116,7 +116,7 @@ bagpy_analysis_tool/
 ├── bagfile1_para.csv
 ├── bagfile2_para.csv
 ```
-The  ```output.json``` includes the information of the original bagfile and the comparison results.
+The  ```output.json``` includes the information of the original bagfile and the comparison results. It will also output some plots showing the comparison results (details for this comparison can refer to my report).
 
 
 
