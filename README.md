@@ -44,11 +44,7 @@ split_tool.py [-h]
               [--bagfile BAGFILE]                       the dir of the bagfile
               [--parameter_file PARAMETER_FILE]         the dir of parameter file
               [--save_dir SAVE_DIR]                     the dir to save the output
-              [--
-              
-              
-              
-              bag_name OUTBAG_NAME]               the name of the output bagfile
+              [--bag_name OUTBAG_NAME]                  the name of the output bagfile
               [--start_time START_TIME]                 the start time to split
               [--split_duration SPLIT_DURATION]         the split duration (seconds)
 ```
