@@ -43,8 +43,12 @@ pip install -r requirements.txt
 split_tool.py [-h] 
               [--bagfile BAGFILE]                       the dir of the bagfile
               [--parameter_file PARAMETER_FILE]         the dir of parameter file
-              [--save_dir SAVE_DIR]                     the dir to save the outout
-              [--outbag_name OUTBAG_NAME]               the name of the output bagfile
+              [--save_dir SAVE_DIR]                     the dir to save the output
+              [--
+              
+              
+              
+              bag_name OUTBAG_NAME]               the name of the output bagfile
               [--start_time START_TIME]                 the start time to split
               [--split_duration SPLIT_DURATION]         the split duration (seconds)
 ```
@@ -55,7 +59,7 @@ User can run the demo by the following command:
 python split_tool.py --bagfile your_bagfile_dir \
                 --parameter_file your_parafile_dir \
                 --save_dir ./split_result \
-                --outbag_name ouput.bag \
+                --outbag_name output.bag \
                 --start_time 0 \
                 --split_duration 30 \
 ```
