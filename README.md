@@ -40,8 +40,7 @@ pip install -r requirements.txt
 ## Bagfile Split Tool
 ### 1. Archetecture of the input parameter of the split tool
 ```
-split_tool.py [-h] 
-              [--bagfile BAGFILE]                       the dir of the bagfile
+split_tool.py [--bagfile BAGFILE]                       the dir of the bagfile
               [--parameter_file PARAMETER_FILE]         the dir of parameter file
               [--save_dir SAVE_DIR]                     the dir to save the output
               [--bag_name OUTBAG_NAME]                  the name of the output bagfile
