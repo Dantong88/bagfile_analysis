@@ -94,10 +94,10 @@ User can also use ```python analysis_tool.py -h``` to see the help.
 ### 2. Demo
 User can run the demo by the following command:
 ```
-python analysis_tool.py --bagfile1 your_bagfile1\
-                        --bagfile2 your_bagfile2\                     
-                        --parameter_file1 your_parafile1\
-                        --parameter_file2 your_parafile2\
+python analysis_tool.py --bagfile1 your_bagfile1 \
+                        --bagfile2 your_bagfile2 \                     
+                        --parameter_file1 your_parafile1 \
+                        --parameter_file2 your_parafile2 \
                         --save_dir your_output_dir
 ```
 User can assign the save dir and the name of splitted bagfile, the start time to split and the duration, the duration is with the unit of second, then it will output the splitted bagfile in the assigned dir with the archetecture below:
