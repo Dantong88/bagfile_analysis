@@ -1,4 +1,11 @@
 # Bagpy Analysis [Usage]
+## Brief introduction
+This repo includes two bagfile analysis tools: bagfile split tools and the bagfile analysis tools.
+
+The bagfile split tool can split the input bagfile based on timestamp, the user can assign the start time and duration of the target bagfile and will output the bagfile clip of the specified time interval.
+
+The bagfile analysis tool can deliver topic-based bagfile data analysis and comparison analysis. The user can input two bagfiles and the corresponding .csv parameter files, then output the analysis as some plots and json file. The details of the analysis topics can refer to my report. *(TODO later)
+
 ## Create an environment
 ```
 conda create -n bagpy_analysis python=3.8
