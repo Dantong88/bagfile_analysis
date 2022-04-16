@@ -49,9 +49,10 @@ python split_tool.py --bagfile your_bagfile_dir \
                 --parameter_file your_parafile_dir \
                 --save_dir ./split_result \
                 --outbag_name ouput.bag \
-                --start_time 1628031922 \
+                --start_time 0 \
                 --split_duration 30 \
 ```
+For the  ```start_time ```, it should be clarified that the user can either input timestamp as an absolute start time (```e.g.1628031922```), but if user does not know the details of the time, can also just input  ```0```, then the split tool will spilt the bagfile from the start of that file.
 User can assign the save dir and the name of splitted bagfile, the start time to split and the duration, the duration is with the unit of second, then it will output the splitted bagfile in the assigned dir with the archetecture below:
 ```
 bagpy_analysis_tool/
