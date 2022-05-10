@@ -117,6 +117,21 @@ bagpy_analysis_tool/
 ```
 The  ```output.json``` includes the information of the original bagfile and the comparison results. It will also output some plots showing the comparison results (details for this comparison can refer to my report).
 
+## Controller Evaluation Tool
+### 1. Demo
+User can run the demo by the following command:
+```
+python controller_evaluation.py --bagfile your_bagfile \
+                        --lambda1 your_lambda1 \                     
+                        --lambda2 your_lambda2 \
+                        --lambda3 your_lambda3 \
+                        --alpha your_alpha[float]
+                        --save_dir your_output_dir
+```
+User can assign the save dir, hyperparameter ```lambda1```, ```lambda2```, ```lambda3``` and ```alpha```.
+
+The  ```output.json``` includes the information of the each mertics defined in the report.
+
 
 
 
